@@ -16,10 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{52
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{B7D2D1A6-3214-4749-9DAA-D2785B62C4E9}"
-	ProjectSection(SolutionItems) = preProject
-		build\package.bat = build\package.bat
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonApiSerializer.Benchmarks", "tests\JsonApiSerializer.Benchmarks\JsonApiSerializer.Benchmarks.csproj", "{A13495BD-D5BB-4F57-A134-3DFA867E86D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +32,10 @@ Global
 		{ACED8723-0D2D-40E1-9E92-C0E755A60F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACED8723-0D2D-40E1-9E92-C0E755A60F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACED8723-0D2D-40E1-9E92-C0E755A60F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13495BD-D5BB-4F57-A134-3DFA867E86D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13495BD-D5BB-4F57-A134-3DFA867E86D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13495BD-D5BB-4F57-A134-3DFA867E86D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13495BD-D5BB-4F57-A134-3DFA867E86D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3CFAD26B-A705-4180-A210-E0B7BBDF6404} = {2CC10E19-7EEE-4E16-8473-89BB78642787}
 		{ACED8723-0D2D-40E1-9E92-C0E755A60F3A} = {32D2F3FF-275C-4CD1-ABBE-9D3865DFC297}
+		{A13495BD-D5BB-4F57-A134-3DFA867E86D3} = {32D2F3FF-275C-4CD1-ABBE-9D3865DFC297}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74E57F44-FD27-494F-ADFF-973B551D31B0}
